@@ -104,7 +104,8 @@ class Menu {
 
           for (let i = 0; i < this.selectedTeam.players.length; i++) {
               description += i + ') ' + this.selectedTeam.players[i].name 
-              + ' - ' + this.selectedTeam.players[i].position + ' - ' + this.selectedTeam.players[i].age + ' - ' + this.selectedTeam.players[i].salary  + '\n';
+              + ' - ' + this.selectedTeam.players[i].position + ' - ' + this.selectedTeam.players[i].age + 
+              ' - ' + this.selectedTeam.players[i].salary  + '\n';
           }
 
           let selection = this.showTeamMenuOptions(description);0
